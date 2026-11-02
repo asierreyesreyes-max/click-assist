@@ -1,0 +1,16 @@
+{
+  "geode": "4.0.0",
+  "gd": { "win": "2.2074", "android32": "2.2074", "android64": "2.2074" },
+  "id": "tunombre.click-assist",
+  "name": "Click Assist",
+  "version": "v1.0.0",
+  "developer": "tunombre",
+  "description": "Input buffer (clicks anticipados) y asistencia de spam.",
+  "settings": {
+    "buffer-enabled": { "type": "bool", "name": "Input buffer", "default": true },
+    "buffer-ms": { "type": "float", "name": "Ventana del buffer (ms)", "default": 100, "min": 10, "max": 1000 },
+    "spam-enabled": { "type": "bool", "name": "Asistencia de spam", "default": true },
+    "spam-max-cps": { "type": "float", "name": "CPS maximo del spam", "default": 15, "min": 4, "max": 30 },
+    "practice-only": { "type": "bool", "name": "Solo en modo practica", "default": true }
+  }
+}
